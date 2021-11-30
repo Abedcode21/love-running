@@ -21,6 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 
 }
 /*navation links*/
@@ -87,18 +88,25 @@ h1, h2 {
 
  }
 
+ hr {
+     border-top: 1px solid #3a3a3a;
+     width: 100%;
+     margin: 5px 0 ;
+     
+
+ }
  #left-about {
      padding-top: 30px;
      width: 33%;
      float: left;
-     background-color: chartreuse;
+     
  }
 
  #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: rgb(255, 0, 140);
+    
 }
 
 #center-about {
@@ -106,4 +114,19 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: rgb(68, 0, 255);
+}
+.left-about-heading {
+    width: 60%;
+    float:right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float:left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
 }
