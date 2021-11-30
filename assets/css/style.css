@@ -80,4 +80,30 @@ h1, h2 {
     }
  }
 
-    
+ /* club-ethos*/
+
+ #club-ethos {
+     height: 600px;
+
+ }
+
+ #left-about {
+     padding-top: 30px;
+     width: 33%;
+     float: left;
+     background-color: chartreuse;
+ }
+
+ #right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: rgb(255, 0, 140);
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgb(68, 0, 255);
+}
